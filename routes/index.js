@@ -6,20 +6,20 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Home' });
 });
 
-router.get('/about', function(req, res, next) {
-  res.render('index', { title: 'About' });
+router.get('/aboutme', function(req, res, next) {
+  res.render('aboutme', { title: 'About me' });
 });
 
-router.get('/Products', function(req, res, next) {
-  res.render('index', { title: 'Products' });
+router.get('/Projects', function(req, res, next) {
+  res.render('projects', { title: 'Projects' });
 });
 
 router.get('/Services', function(req, res, next) {
-  res.render('index', { title: 'Services' });
+  res.render('services', { title: 'Services' });
 });
 
 router.get('/Contact', function(req, res, next) {
-  res.render('index', { title: 'Contact' });
+  res.render('contact', { title: 'Contact' });
 });
 
 module.exports = router;
