@@ -1,3 +1,5 @@
+//app.js Wai Tung Wong 301222578 2022-10-14
+
 (function(){
     function start(){
         console.log("App started...")
